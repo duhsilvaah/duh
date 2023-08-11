@@ -1,7 +1,15 @@
-@import url(stayles/header.css);
+@import url(styles/header.css);
+:root{
 
-:root {
-    --cor-de-fundo: #e495ba;
-    --cor-do-cabecalho: #4d1818;
+--cor-de-fundo: #9949b4;
+--cor-do-cabecalho: #FFFFFF;
+
+}
+
+body{
+
+margin: 0px;
+padding: 0px;
+background-color: var(--cor-de-fundo);
 
 }
